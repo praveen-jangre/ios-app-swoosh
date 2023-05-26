@@ -24,5 +24,7 @@ class PJBorderButton: UIButton {
         layer.borderColor = UIColor.white.cgColor
         
     }
+    
+    
 
 }
