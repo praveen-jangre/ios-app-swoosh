@@ -11,7 +11,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="swoosh_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,6 +137,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="mensBtnTapped:" destination="2TA-Tl-IlT" eventType="touchUpInside" id="RNf-sZ-1vH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMo-kK-3vZ" customClass="PJBorderButton" customModule="swoosh_swift" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="390" height="50"/>
@@ -157,6 +160,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="womensBtnTapped:" destination="2TA-Tl-IlT" eventType="touchUpInside" id="PZT-FE-ODp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-QF-1G1" customClass="PJBorderButton" customModule="swoosh_swift" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="180" width="390" height="50"/>
@@ -177,6 +183,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="coedBtnTapped:" destination="2TA-Tl-IlT" eventType="touchUpInside" id="G3J-Ei-ZQc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -200,7 +209,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2k-lN-PZA" customClass="PJBorderButton" customModule="swoosh_swift" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2k-lN-PZA" customClass="PJBorderButton" customModule="swoosh_swift" customModuleProvider="target">
                                 <rect key="frame" x="20" y="852" width="390" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.39713562429999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -220,7 +229,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="klp-sD-XSe" kind="show" id="FeK-Qq-6yx"/>
+                                    <action selector="nextBtnTapped:" destination="2TA-Tl-IlT" eventType="touchUpInside" id="d1J-5U-5mt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,6 +252,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nWP-Tv-FAd"/>
+                    <connections>
+                        <outlet property="coedBtn" destination="xVb-QF-1G1" id="ljI-Zo-ww3"/>
+                        <outlet property="mensBtn" destination="9Mx-pr-TwS" id="66E-Ec-b9H"/>
+                        <outlet property="nextBtn" destination="Y2k-lN-PZA" id="A2D-Bt-4BQ"/>
+                        <outlet property="womensBtn" destination="jMo-kK-3vZ" id="eFX-8E-j0L"/>
+                        <segue destination="klp-sD-XSe" kind="show" identifier="SkillVC" id="QVJ-cf-wXY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qd0-5J-FjE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

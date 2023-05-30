@@ -22,6 +22,9 @@
 		952A245C2A20E2DA00DA0267 /* swoosh_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A245B2A20E2DA00DA0267 /* swoosh_swiftTests.swift */; };
 		952A24662A20E2DA00DA0267 /* swoosh_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A24652A20E2DA00DA0267 /* swoosh_swiftUITests.swift */; };
 		952A24682A20E2DA00DA0267 /* swoosh_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A24672A20E2DA00DA0267 /* swoosh_swiftUITestsLaunchTests.swift */; };
+		95AB40FF2A25F73100AF3E21 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB40FE2A25F73100AF3E21 /* Player.swift */; };
+		95AB41002A25F73100AF3E21 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB40FE2A25F73100AF3E21 /* Player.swift */; };
+		95AB41012A25F73100AF3E21 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB40FE2A25F73100AF3E21 /* Player.swift */; };
 		95BBB48B2A20E3D300F0990F /* PJBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BBB48A2A20E3D300F0990F /* PJBorderButton.swift */; };
 		95BBB48C2A20E3D300F0990F /* PJBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BBB48A2A20E3D300F0990F /* PJBorderButton.swift */; };
 		95BBB48D2A20E3D300F0990F /* PJBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BBB48A2A20E3D300F0990F /* PJBorderButton.swift */; };
@@ -60,6 +63,7 @@
 		952A24612A20E2DA00DA0267 /* swoosh-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swoosh-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		952A24652A20E2DA00DA0267 /* swoosh_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swoosh_swiftUITests.swift; sourceTree = "<group>"; };
 		952A24672A20E2DA00DA0267 /* swoosh_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swoosh_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95AB40FE2A25F73100AF3E21 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		95BBB48A2A20E3D300F0990F /* PJBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJBorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +105,7 @@
 		950C82612A20EAAB00F8A744 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				95AB40FE2A25F73100AF3E21 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				952A24452A20E2D500DA0267 /* AppDelegate.swift in Sources */,
 				952A24472A20E2D500DA0267 /* SceneDelegate.swift in Sources */,
 				950C82632A20EB1700F8A744 /* LeagueViewController.swift in Sources */,
+				95AB40FF2A25F73100AF3E21 /* Player.swift in Sources */,
 				950C82672A20EB2D00F8A744 /* SkillViewController.swift in Sources */,
 				95BBB48B2A20E3D300F0990F /* PJBorderButton.swift in Sources */,
 			);
@@ -313,6 +319,7 @@
 				952A245C2A20E2DA00DA0267 /* swoosh_swiftTests.swift in Sources */,
 				950C82642A20EB1700F8A744 /* LeagueViewController.swift in Sources */,
 				950C82682A20EB2D00F8A744 /* SkillViewController.swift in Sources */,
+				95AB41002A25F73100AF3E21 /* Player.swift in Sources */,
 				95BBB48C2A20E3D300F0990F /* PJBorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +332,7 @@
 				95BBB48D2A20E3D300F0990F /* PJBorderButton.swift in Sources */,
 				950C82692A20EB2D00F8A744 /* SkillViewController.swift in Sources */,
 				952A24682A20E2DA00DA0267 /* swoosh_swiftUITestsLaunchTests.swift in Sources */,
+				95AB41012A25F73100AF3E21 /* Player.swift in Sources */,
 				950C82652A20EB1700F8A744 /* LeagueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
